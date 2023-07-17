@@ -47,3 +47,6 @@ def get_file(filename):
 def internal_server_error(error):
     referrer_url = request.referrer
     return render_template('error.html', error=error,referrer_url = referrer_url ), 500
+
+if __name__ =="__main":
+    app.run(debug=False,host='0.0.0.0')
