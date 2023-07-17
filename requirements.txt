@@ -50,7 +50,7 @@ nltk==3.6.5
 numpy==1.21.4
 oauthlib==3.1.1
 opt-einsum==3.3.0
-packaging==23.4
+packaging==23.1
 Pillow==8.4.0
 pipeline==0.1.0
 platformdirs==2.4.0
